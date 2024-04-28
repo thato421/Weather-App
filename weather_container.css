@@ -1,0 +1,250 @@
+/* Weather Container Style File */
+
+.weather_container{
+    /* border: 1px solid red; */
+    border-radius: 25px;
+
+    background-color: #191919;
+
+    height: 80vh;
+    width: 25%;
+
+    margin: auto;
+    margin-top: 5vh;
+
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.search_container{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+
+    background-color: #EEEEEE;
+
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city_input{
+    border: none;
+    border-radius: 10px;
+
+    background-color: #EEEEEE;
+
+    height: 100%;
+    width: 70%;
+
+    outline: none;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    text-transform: capitalize;
+}
+
+.search_btn{
+    /* border: 1px solid red; */
+    border: none;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.search_btn_img{
+    height: 80%;
+}
+
+.city_container{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 5vh;
+}
+
+.city_name{
+    color: #EEEEEE;
+}
+
+.loaction_img{
+    filter: invert(1);
+}
+
+.weather_icon_container{
+    /* border: 1px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2vh;
+}
+
+.temp_heading{
+    /* border: 1px solid red; */
+    border-bottom: 4px solid #EEEEEE;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2vh;
+}
+
+.temp_heading_txt{
+    color: #EEEEEE;
+}
+
+.temperature_container{
+    /* border: 1px solid red; */
+
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 1vh;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.temp_img{
+    /* border: 1px solid red; */
+
+    height: 90%;
+}
+
+.temperature{
+    /* border: 1px solid red; */
+
+    color: #EEEEEE;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+.humid_heading{
+    /* border: 1px solid red; */
+    border-bottom: 4px solid #EEEEEE;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2vh;
+}
+
+.humid_heading_txt{
+    color: #EEEEEE;
+}
+
+.humidity_container{
+    /* border: 1px solid red; */
+
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 1vh;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.humidity_img{
+    /* border: 1px solid red; */
+
+    height: 90%;
+}
+
+.humidity{
+    /* border: 1px solid red; */
+
+    color: #EEEEEE;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+.wind_heading{
+    /* border: 1px solid red; */
+    border-bottom: 4px solid #EEEEEE;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2vh
+}
+
+.wind_heading_txt{
+    color: #EEEEEE;
+}
+
+.wind_container{
+    /* border: 1px solid red; */
+
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 1vh;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.wind_img{
+    /* border: 1px solid red; */
+
+    height: 90%;
+}
+
+.wind{
+    /* border: 1px solid red; */
+
+    color: #EEEEEE;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}

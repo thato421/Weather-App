@@ -1,0 +1,24 @@
+/* Heading Container Style File */
+
+.heading_container{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+
+    background-color: #191919;
+
+    height: 5vh;
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.heading_txt{
+    color: #EEEEEE;
+
+    font-weight: bold;
+}
