@@ -3,15 +3,35 @@
  /* Media Query for Mobile Devices */
 
  @media (max-width: 480px) {
-    body {
-        background-color: red;
+
+    .heading_container{
+        border: 1px solid red;
+
+        width: 70%;
     }
+
+    .weather_container{
+        border: 1px solid red;
+
+        width: 90%;
+    }
+
 }
 
-/* Media Query for Tablet Devices */
+/* Media Query for Medium Screens */
 
-@media (max-width:  767px) {
-    body {
-        background-color: yellow;
+@media (max-width: 640px){
+
+    .heading_container{
+        border: 1px solid red;
+
+        width: 80%;
     }
+
+    .weather_container{
+        border: 1px solid red;
+
+        width: 90%;
+    }
+
 }
