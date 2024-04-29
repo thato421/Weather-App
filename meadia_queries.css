@@ -5,13 +5,13 @@
  @media (max-width: 480px) {
 
     .heading_container{
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
         width: 70%;
     }
 
     .weather_container{
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
         width: 90%;
     }
@@ -23,13 +23,13 @@
 @media (max-width: 640px){
 
     .heading_container{
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
         width: 80%;
     }
 
     .weather_container{
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
         width: 90%;
     }
