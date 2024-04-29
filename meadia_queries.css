@@ -1,0 +1,17 @@
+/* Media Queries Style File */
+
+ /* Media Query for Mobile Devices */
+
+ @media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Media Query for Tablet Devices */
+
+@media (max-width:  767px) {
+    body {
+        background-color: red;
+    }
+}
